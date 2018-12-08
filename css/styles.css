@@ -30,3 +30,31 @@ table {
     margin-right: 40%;
     background-color: white;
 }
+
+div.calc_wrap {
+  width: 50%;
+  height: 50%;
+  background-color: #ffffff;
+  border-radius: 4px;
+  font-size: 10pt;
+  margin: 0 auto;
+  border: 1px solid #333;
+}
+h4.calc_title {
+  padding: 10px;
+  text-align: center;
+  border-bottom: 1px solid #333;
+  background-color: #2D5064;
+  color: #ffffff;
+  margin-top: 0;
+}
+div.calc_wrap ul {
+  list-style-type: none;
+}
+
+div.calc_wrap .solution {
+  margin-top: 10px;
+}
+div.calc_wrap input {
+  margin: 5px 5px;
+}
