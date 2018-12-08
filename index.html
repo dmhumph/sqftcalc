@@ -18,6 +18,14 @@
             document.getElementById("results").innerHTML = "";
         }
     </script>
+    <script type="text/javascript">
+        function cartons_needed() {
+            var input1 = document.getElementById("sqft").value;
+            var input2 = document.getElementById("cartons").value;
+            var total = input1 / input2;
+            document.getElementById('needed').value = Math.ceil(total);
+        }
+    </script>
 </head>
 <body>
     <div>
@@ -48,6 +56,23 @@
         
         <!-- <img src="images/sqrft.jpg"> -->
         
+    </div>
+    <div>
+        <h4 class="calc_title">Calculate how many cartons you need to buy</h4>
+        <ul>
+            <li> 
+                <input id="sqft" type="text" placeholder="Square feet to cover" />
+            </li>
+
+            <li>
+                <input id="cartons" type="text" placeholder="Square feet per carton" />
+            </li>
+            <button type="button" style="margin-top:10px;" value"Calculate" onclick="cartons_needed();">Calculate</button>
+            <li class="solution">
+                <label>Minimum cartons needed:</label><input id="needed" type="text" name="total" value=" ">
+            </li>
+
+        </ul>
     </div>
 
 </body>
