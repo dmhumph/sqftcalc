@@ -37,7 +37,7 @@ div.calc_wrap {
   background-color: #ffffff;
   border-radius: 4px;
   font-size: 10pt;
-  margin: 0 auto;
+  margin: 300px auto;
   border: 1px solid #333;
 }
 h4.calc_title {
@@ -46,7 +46,7 @@ h4.calc_title {
   border-bottom: 1px solid #333;
   background-color: #2D5064;
   color: #ffffff;
-  margin-top: 0;
+  margin-top: 200px;
 }
 div.calc_wrap ul {
   list-style-type: none;
